@@ -31,3 +31,11 @@ do {
   }
   k++;
 } while (k <= 20);
+
+//------ DESAFIO ------
+
+for (let i = 20; i >= 1; i--) {
+  if (i !== 13) {
+    console.log(`Esse é o andar de número ${i}`);
+  }
+}
